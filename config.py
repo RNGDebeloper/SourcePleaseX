@@ -7,7 +7,7 @@ API_ID = int(getenv("23267035"))
 API_HASH = getenv("a516af48bca80b9f339980650126149c")
 BOT_TOKEN = getenv("6541399786:AAFa17jHfX4IYECp5cTFsR945skTs8bZ_9Y")
 
-MONGO_DB_URI = getenv("mongodb+srv://animebot:<password>@cluster0.cybneuo.mongodb.net/?retryWrites=true&w=majority")
+MONGO_DB_URI = getenv("mongodb+srv://animebot:animesdkbot@cluster0.cybneuo.mongodb.net/?retryWrites=true&w=majority")
 
 INDEX_ID = int(getenv("-1001897930752"))
 UPLOADS_ID = int(getenv("-1001835485195"))
