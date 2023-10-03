@@ -3,18 +3,18 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-API_ID = int(getenv("23267035"))
-API_HASH = getenv("a516af48bca80b9f339980650126149c")
-BOT_TOKEN = getenv("6541399786:AAFa17jHfX4IYECp5cTFsR945skTs8bZ_9Y")
+API_ID = int(getenv(" "))
+API_HASH = getenv(" ")
+BOT_TOKEN = getenv(" ")
 
-MONGO_DB_URI = getenv("mongodb+srv://animebot:animesdkbot@cluster0.cybneuo.mongodb.net/?retryWrites=true&w=majority")
+MONGO_DB_URI = getenv(" ")
 
-INDEX_ID = int(getenv("-1001897930752"))
-UPLOADS_ID = int(getenv("-1001835485195"))
+INDEX_ID = int(getenv(" "))
+UPLOADS_ID = int(getenv(" "))
 
-STATUS_ID = int(getenv("-1001605018135"))
-SCHEDULE_ID = int(getenv("-1001519241462"))
+STATUS_ID = int(getenv(" "))
+SCHEDULE_ID = int(getenv(" "))
 
-CHANNEL_TITLE = getenv("Anime Hindi Dubbed")
-INDEX_USERNAME = getenv("anime_hindi_dubbed_by_moviesme")
-UPLOADS_USERNAME = getenv("anime_hubxs")
+CHANNEL_TITLE = getenv(" ")
+INDEX_USERNAME = getenv(" ")
+UPLOADS_USERNAME = getenv(" ")
