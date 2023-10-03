@@ -3,18 +3,18 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-API_ID = getenv(" ")
-API_HASH = getenv(" ")
-BOT_TOKEN = getenv(" ")
+API_ID = int(getenv(" "))
+API_HASH = int(getenv(" "))
+BOT_TOKEN = int(getenv(" "))
 
-MONGO_DB_URI = getenv(" ")
+MONGO_DB_URI = int(getenv(" "))
 
-INDEX_ID = getenv(" ")
-UPLOADS_ID = getenv(" ")
+INDEX_ID = int(getenv(" "))
+UPLOADS_ID = int(getenv(" "))
 
-STATUS_ID = getenv(" ")
-SCHEDULE_ID = getenv(" ")
+STATUS_ID = int(getenv(" "))
+SCHEDULE_ID = int(getenv(" "))
 
-CHANNEL_TITLE = getenv(" ")
-INDEX_USERNAME = getenv(" ")
-UPLOADS_USERNAME = getenv(" ")
+CHANNEL_TITLE = int(getenv(" "))
+INDEX_USERNAME = int(getenv(" "))
+UPLOADS_USERNAME = int(getenv(" "))
