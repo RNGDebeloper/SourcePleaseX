@@ -9,11 +9,11 @@ BOT_TOKEN = getenv(" ")
 
 MONGO_DB_URI = getenv(" ")
 
-INDEX_ID = int(getenv(" "))
-UPLOADS_ID = int(getenv(" "))
+INDEX_ID = getenv(" ")
+UPLOADS_ID = getenv(" ")
 
-STATUS_ID = int(getenv(" "))
-SCHEDULE_ID = int(getenv(" "))
+STATUS_ID = getenv(" ")
+SCHEDULE_ID = getenv(" ")
 
 CHANNEL_TITLE = getenv(" ")
 INDEX_USERNAME = getenv(" ")
