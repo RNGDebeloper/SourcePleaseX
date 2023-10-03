@@ -18,31 +18,31 @@ services:
 
         # value: Get this value from my.telegram.org
 
-        sync: false
+        sync: True
 
       - key: API_HASH
 
         # value: Get this value from my.telegram.org
 
-        sync: false
+        sync: True
 
       - key: BOT_TOKEN
 
         # value: Get this from @BotFather
 
-        sync: false
+        sync: True
 
       - key: MONGO_DB_URI
 
         # value: Get this from cloud.mongodb.com
 
-        sync: false
+        sync: True
 
       - key: INDEX_ID
 
         # value: ID of your Index Channel
 
-        sync: false
+        sync: True
 
       - key: UPLOADS_ID
 
@@ -52,31 +52,31 @@ services:
 
         # value: ID of the message in your Uploads Channel where the status of bot will be showed
 
-        sync: false
+        sync: True
 
       - key: SCHEDULE_ID
 
         # value: ID of the message in your Uploads Channel where the Live Schedule From Subsplease will be showed
 
-        sync: false
+        sync: True
 
       - key: CHANNEL_TITLE
 
         # value: Name of your channel (This will appear in thumbnail of videos)
 
-        sync: false
+        sync: True
 
       - key: INDEX_USERNAME
 
         # value: Username of your Index Channel
 
-        sync: false
+        sync: True
 
       - key: UPLOADS_USERNAME
 
         # value: Username of your Uploads Channel
 
-        sync: false
+        sync: True
 
       - key: PORT
 
