@@ -3,7 +3,7 @@ services:
   - type: web
     name: SourcePleaseX
     env: docker
-    repo: https://github.com/RNGDebeloper/SourcePleaseX-api.git
+    repo: https://github.com/RNGDebeloper/SourcePleaseX.git
     plan: free
     branch: main
     envVars:
