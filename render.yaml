@@ -7,26 +7,5 @@ services:
     plan: free
     branch: main
     envVars:
-      - key: API_ID
-        sync: false
-      - key: API_HASH
-        sync: false
-      - key: BOT_TOKEN
-        sync: false
-      - key: MONGO_DB_URI
-        sync: false
-      - key: INDEX_ID
-        sync: false
-      - key: UPLOADS_ID
-      - key: STATUS_ID
-        sync: false
-      - key: SCHEDULE_ID      
-        sync: false
-      - key: CHANNEL_TITLE
-        sync: false
-      - key: INDEX_USERNAME
-        sync: false
-      - key: UPLOADS_USERNAME
-        sync: false
       - key: PORT
         value: 8080
